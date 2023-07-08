@@ -1,0 +1,20 @@
+.containerMeals{
+    height: fit-content;
+    padding: 50px;
+   
+}
+
+@media screen  and (max-width : 600px) 
+{
+    .containerMeals{
+        margin-left: 20px;
+    }
+}
+
+@media screen  and (max-width : 770px) 
+{
+    .col-Area{
+        width: 50%;
+    }
+    
+}
