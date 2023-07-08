@@ -9,11 +9,34 @@ $(document).ready(function () {
 });
 
 // -------------------------------------Side Nav--------------------------------
-$(".close-icon").click(() => {
-  let sideWidth = $(".side-div ").outerWidth();
-  if ($(".side-div ").css("left") == "-264.562px") {
+// $(".close-icon").click(() => {
+//   let sideWidth = $(".side-div ").outerWidth();
+//   if ($(".side-div ").css("left") == "-264.562px") {
+//     $(".side-div").animate({ left: "0px" }, 500);
+//     $(".nav-right").animate({ left: "264.562px" }, 500);
+//     $(".close-icon").removeClass("fa-align-justify");
+//     $(".close-icon").addClass("fa-x");
+//     for (let i = 0; i < 5; i++) {
+//       $(".nav-top ul li")
+//         .eq(i)
+//         .animate({ top: "0" }, (i + 5) * 150);
+//     }
+//   } else {
+//     $(".nav-top ul li").animate({ top: "400" }, 500);
+//     $(".side-div").animate({ left: -sideWidth }, 500);
+//     $(".nav-right").animate({ left: "0px" }, 500);
+//     $(".close-icon").addClass("fa-align-justify");
+//     $(".close-icon").removeClass("fa-x");
+//   }
+// });
+// -------------------------------------Side Nav--------------------------------
+
+// -------------------------------------Side Nav--------------------------------
+$(".fa-align-justify").click(() => {
+  // let sideWidth = $(".side-div ").outerWidth();
+  if ($(".side-div ").css("left") == "-300px") {
     $(".side-div").animate({ left: "0px" }, 500);
-    $(".nav-right").animate({ left: "264.562px" }, 500);
+    $(".nav-right").animate({ left: "265px" }, 500);
     $(".close-icon").removeClass("fa-align-justify");
     $(".close-icon").addClass("fa-x");
     for (let i = 0; i < 5; i++) {
@@ -21,14 +44,21 @@ $(".close-icon").click(() => {
         .eq(i)
         .animate({ top: "0" }, (i + 5) * 150);
     }
-  } else {
+  }
+   else {
     $(".nav-top ul li").animate({ top: "400" }, 500);
-    $(".side-div").animate({ left: -sideWidth }, 500);
+    $(".side-div").animate({ left: "-300px" }, 500);
     $(".nav-right").animate({ left: "0px" }, 500);
     $(".close-icon").addClass("fa-align-justify");
     $(".close-icon").removeClass("fa-x");
   }
 });
+// -------------------------------------Side Nav--------------------------------
+
+
+
+
+
 // =============================================================================
 let arrayData = document.getElementById("arrayData");
 let home = document.getElementById("Home");

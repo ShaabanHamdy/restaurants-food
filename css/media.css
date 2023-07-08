@@ -18,3 +18,12 @@
     }
     
 }
+
+@media screen  and (max-width : 600px) 
+{
+    .col-Area{
+        width: 50%;
+    }
+    
+}
+

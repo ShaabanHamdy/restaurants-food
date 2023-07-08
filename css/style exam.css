@@ -26,7 +26,7 @@ i {
   height: 100%;
 }
 
-.side-div {
+/* .side-div {
   position: fixed;
   left: -264.562px;
   z-index: 999;
@@ -35,6 +35,23 @@ i {
 
 .nav-right {
   position: fixed;
+  left: 0px;
+  z-index: 9;
+} */
+
+.side-div {
+  /* width: 35%; */
+  position: fixed;
+  /* left: 0px; */
+  left: -300px;
+  z-index: 999;
+  /* background-color: rgb(0, 0, 0); */
+  background-color: rgb(130, 41, 41);
+}
+
+.nav-right {
+  position: fixed;
+  /* left: 265px; */
   left: 0px;
   z-index: 9;
 }
